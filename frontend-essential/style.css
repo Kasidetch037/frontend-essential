@@ -1,0 +1,36 @@
+/* .content {
+  color: red;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Roboto:ital,wght@0,300;1,400;1,900&display=swap");
+
+body {
+  background-color: gray;
+}
+
+.milestone {
+  background-color: aquamarine;
+  box-shadow: 0 0 10px 5px;
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 24px 0;
+}
+
+.box {
+  width: auto;
+  height: auto;
+  border: 5px solid;
+  background-color: white;
+  padding: 30px;
+  margin: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Fuggles", cursive;
+}
+
+a:hover {
+  color: burlywood;
+}
+/* height : auto คือ
+ใช้ความสูงตามที่มันจำเป็นต้องใช้ */
