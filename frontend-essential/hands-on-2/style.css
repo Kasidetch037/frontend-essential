@@ -1,4 +1,19 @@
-header {
-  color: gray;
-  box-shadow: 5px 10px;
+.header {
+  border: 5px solid;
+  display: inline-block;
+  background-color: wheat;
+}
+
+.comprog {
+  width: 100%;
+  height: auto;
+  padding: 12px 20px;
+  background-color: wheat;
+  box-shadow: 0 0 10px 5px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
 }
