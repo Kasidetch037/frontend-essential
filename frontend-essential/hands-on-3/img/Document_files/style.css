@@ -128,18 +128,10 @@
     flex-wrap: nowrap;
     flex-direction: column;
   }
-  .leftChild {
-    font-size: 15px;
-  }
-  .rightChild {
-    font-size: 15px;
-  }
 }
 
-.ham {
+#ham {
   display: none;
-  /* ! icon ใหญ่ไป เลยไม่แสดง */
-  width: 50px;
 }
 
 /* grid max-width */
@@ -149,7 +141,6 @@
     flex-wrap: nowrap;
     flex-direction: column;
   }
-
   /* nav max-width */
   .leftChild {
     display: none;
@@ -160,9 +151,7 @@
   .iconChild {
     display: none;
   }
-  .ham {
+  .icon > #ham {
     display: flex;
-    /* ! icon ใหญ่ไป เลยไม่แสดง */
-    width: 30px;
   }
 }
