@@ -1,0 +1,31 @@
+.MyToDoListArea {
+  background-color: darksalmon;
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.checkedTask {
+  text-decoration: line-through;
+  background-color: lightgreen;
+}
+
+.activityStyle {
+  box-shadow: 5px 5px 10px 0px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  /* border: 1px solid; */
+  padding: 10px;
+  margin: 10px;
+}
+
+.divbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* fade out class*/
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s; /* Adjust the duration as needed */
+}
